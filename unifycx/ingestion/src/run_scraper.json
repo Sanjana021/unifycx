@@ -1,0 +1,20 @@
+[
+    {
+      "scraper_id": "100",
+      "scraper_name": "json_100",
+      "api_url": "https://api.slingacademy.com/v1/sample-data/files/employees.json",
+      "frequency": "daily",
+      "enabled": true,
+      "retry_attempts": 3,
+      "timeout": 30
+    },
+    {
+      "scraper_id": "101",
+      "scraper_name": "employee_data",
+      "api_url": "https://api.slingacademy.com/v1/sample-data/files/employees.json",
+      "frequency": "weekly",
+      "enabled": true,
+      "retry_attempts": 5,
+      "timeout": 60
+    }
+  ]
